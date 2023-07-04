@@ -12,6 +12,22 @@ body {
   line-height: 2em;
 }
 
+.container {
+  margin: 0 auto;
+  max-width: 1170px;
+  padding: 0 15px;
+}
+
+.section-padding {
+  padding: 120px 0;
+  background-repeat: no-repeat;
+}
+
+.section-padding-top {
+  padding-top: 120px;
+  background-repeat: no-repeat;
+}
+
 p {
   margin-bottom: 10px;
 }
@@ -45,14 +61,26 @@ h1, h2, h3, h4, h5, h6 {
   color: #1c223a;
 }
 
+.btn {
+  border: none;
+  border-radius: 3px;
+  padding: 10px 30px;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.btn__read {         
+  margin-top: 15px;
+  line-height: 32px;
+  color: white;
+  background-color: #10d596;
+}
+
 .wrapper {
   overflow: hidden;
   .header {
     align-items: center;
     .container {
-      margin: 0 auto;
-      max-width: 1170px;
-      padding: 0 15px;
       .header__wrap {
         display: flex;
         justify-content: space-between;
@@ -63,14 +91,9 @@ h1, h2, h3, h4, h5, h6 {
           gap: 50px;
           .sign-in {
             display: flex;
-            .sign-in-btn {
+            .btn__sign-in {
               background-color: rgb(53, 74, 151);
               color: white;
-              border: none;
-              border-radius: 3px;
-              padding: 15px 30px;
-              font-weight: 500;
-              font-size: 14px;
               display: inline-block;
             }
           }
@@ -101,9 +124,6 @@ h1, h2, h3, h4, h5, h6 {
     .home-page {
       height: calc(100vh - 94px);
       .container {
-        margin: 0 auto;
-        max-width: 1170px;
-        padding: 0 15px;
         .home-page-wrap {
           display: flex;
           align-items: center;
@@ -123,18 +143,12 @@ h1, h2, h3, h4, h5, h6 {
             p {
               max-width: 458px;
               color: white;
-              margin-bottom: 10px;
               font-weight: 400;
             }
-            button {
-              padding: 10px 30px;
+            .btn__started {          
               margin-top: 30px;
               background-color: #10d596;
               color: #fff;
-              border: none;
-              border-radius: 3px;
-              font-size: 14px;
-              font-weight: 500;
               line-height: 32px;
             }
           }
@@ -146,13 +160,9 @@ h1, h2, h3, h4, h5, h6 {
       }
     }
   }
-  .service-page {
-    padding-top: 120px;
+  #service-page {
     text-align: center;
     .container {
-      margin: 0 auto;
-      max-width: 1170px;
-      padding: 0 15px;
       .service-page-title {
         h4 {
           position: relative;
@@ -191,7 +201,6 @@ h1, h2, h3, h4, h5, h6 {
             color: #686b75;
             font-weight: 400;
             width: 555px;
-            margin-bottom: 10px;
           }
         }
       }
@@ -209,18 +218,14 @@ h1, h2, h3, h4, h5, h6 {
           }
           p {
             color: #686b75;
-            margin-bottom: 10px;
+
           }
         }
       }
     }
   }
-  .sales-page {
-    padding-top: 120px;
+  #sales-page {
     .container {
-      margin: 0 auto;
-      max-width: 1170px;
-      padding: 0 15px;
       .sales-page-wrap {
         display: flex;
         align-items: center;
@@ -235,30 +240,14 @@ h1, h2, h3, h4, h5, h6 {
           p {
             font-weight: 400;
             color: #686b75;
-            margin-bottom: 10px;
             max-width: 458px;
-          }
-          button {
-            padding: 10px 30px;
-            margin-top: 15px;
-            line-height: 32px;
-            color: white;
-            background-color: #10d596;
-            border: none;
-            border-radius: 3px;
-            font-size: 14px;
-            font-weight: 500;
           }
         }
       }
     }
   }
-  .schedules-page {
-    padding: 120px 0;
+  #schedules-page {
     .container {
-      margin: 0 auto;
-      max-width: 1170px;
-      padding: 0 15px;
       .schedules-page-wrap {
         display: flex;
         align-items: center;
@@ -278,30 +267,14 @@ h1, h2, h3, h4, h5, h6 {
           p {
             font-weight: 400;
             color: #686b75;
-            margin-bottom: 10px;
             max-width: 458px;
-          }
-          button {
-            padding: 10px 30px;
-            margin-top: 15px;
-            line-height: 32px;
-            color: white;
-            background-color: #10d596;
-            border: none;
-            border-radius: 3px;
-            font-size: 14px;
-            font-weight: 500;
           }
         }
       }
     }
   }
-  .features-page {
-    padding: 120px 0;
+  #features-page {
     .container {
-      margin: 0 auto;
-      max-width: 1170px;
-      padding: 0 15px;
       .features-page-title {
         h4 {
           position: relative;
@@ -340,7 +313,6 @@ h1, h2, h3, h4, h5, h6 {
             color: #686b75;
             font-weight: 400;
             width: 555px;
-            margin-bottom: 10px;
             text-align: center;
           }
         }  
@@ -363,19 +335,14 @@ h1, h2, h3, h4, h5, h6 {
           p {
             color: #686b75;
             font-weight: 400;
-            margin-bottom: 10px;
             max-width: 263px;
           }
         }
       }
     }
   }
-  .testimonial-page {
-    padding-top: 120px;
+  #testimonial-page {
     .container {
-      margin: 0 auto;
-      max-width: 1170px;
-      padding: 0 15px;
       .testimonial-page-title {
         h4 {
           position: relative;
@@ -414,7 +381,6 @@ h1, h2, h3, h4, h5, h6 {
             color: #686b75;
             font-weight: 400;
             width: 555px;
-            margin-bottom: 10px;
             text-align: center;
             padding-bottom: 80px;
           }
@@ -462,12 +428,8 @@ h1, h2, h3, h4, h5, h6 {
       }
     }
   }
-  .price-page {
-    padding-top: 120px;
+  #price-page {
     .container {
-      margin: 0 auto;
-      max-width: 1170px;
-      padding: 0 15px;
       .price-page-title {
         h4 {
           position: relative;
@@ -506,7 +468,6 @@ h1, h2, h3, h4, h5, h6 {
             color: #686b75;
             font-weight: 400;
             width: 555px;
-            margin-bottom: 10px;
             text-align: center;
           }
         }  
@@ -548,14 +509,9 @@ h1, h2, h3, h4, h5, h6 {
               }
             }
           }
-          .btn-price {
-            padding: 10px 30px;
+          .btn__price {           
             background-color: transparent;
-            color: #0297f3;
-            border-radius: 3px;
-            font-weight: 500;
-            font-size: 14px;
-            border: 2px solid #0297f3;
+            color: #0297f3;         
             text-decoration: none;
             line-height: 32px;
           }
@@ -563,13 +519,8 @@ h1, h2, h3, h4, h5, h6 {
       }
     }
   }
-  .video-page {
-    padding-top: 120px;
-    margin-bottom: 15px;
+  #video-page {
     .container {
-      margin: 0 auto;
-      max-width: 1170px;
-      padding: 0 15px;
       .video-wrap {
         text-align: center;
         .video-box {
@@ -602,13 +553,8 @@ h1, h2, h3, h4, h5, h6 {
       }
     }
   }
-  .team-page {
-    padding-top: 120px;
-    padding-bottom: 120px;
+  #team-page {
     .container {
-      margin: 0 auto;
-      max-width: 1170px;
-      padding: 0 15px;
       .team-page-title {
         padding-bottom: 80px;
         h4 {
@@ -648,7 +594,6 @@ h1, h2, h3, h4, h5, h6 {
             color: #686b75;
             font-weight: 400;
             width: 555px;
-            margin-bottom: 10px;
             text-align: center;
           }
         }  
@@ -705,7 +650,6 @@ h1, h2, h3, h4, h5, h6 {
             }
             p {
               font-size: 14px;
-              margin-bottom: 10px;
               color: #686b75;
             }
             .team-social {
@@ -727,12 +671,8 @@ h1, h2, h3, h4, h5, h6 {
       }
     }
   }
-  .contact-page {
-    padding: 120px 0;
+  #contact-page {
     .container {
-      margin: 0 auto;
-      max-width: 1170px;
-      padding: 0 15px;
       .contact-page-title {
         padding-bottom: 80px;
         h4 {
@@ -772,7 +712,6 @@ h1, h2, h3, h4, h5, h6 {
             color: #686b75;
             font-weight: 400;
             width: 555px;
-            margin-bottom: 10px;
             text-align: center;
           }
         }  
@@ -842,25 +781,17 @@ h1, h2, h3, h4, h5, h6 {
             background-color: white;
           }
         }
-        .submit-btn {
-          padding: 10px 30px;
+        .btn__submit {
           background-color: transparent;
           color: #0297f3;
-          border-radius: 3px;
-          font-weight: 500;
-          font-size: 14px;
           border: 2px solid #0297f3;
           line-height: 32px;
         }
       }
     }
   }
-  .faq-page {
-    padding-top: 120px;
+  #faq-page {
     .container {
-      margin: 0 auto;
-      max-width: 1170px;
-      padding: 0 15px;
       .faq-page-title {
         padding-bottom: 80px;
         h4 {
@@ -900,7 +831,6 @@ h1, h2, h3, h4, h5, h6 {
             color: #686b75;
             font-weight: 400;
             width: 555px;
-            margin-bottom: 10px;
             text-align: center;
           }
         }  
@@ -943,12 +873,8 @@ h1, h2, h3, h4, h5, h6 {
       }
     }
   }
-  .trusted-page {
-    padding: 120px 0;
+  #trusted-page {
     .container {
-      margin: 0 auto;
-      max-width: 1170px;
-      padding: 0 15px;
       .trusted-page-title {
         padding-bottom: 80px;
         h4 {
@@ -988,7 +914,6 @@ h1, h2, h3, h4, h5, h6 {
             color: #686b75;
             font-weight: 400;
             width: 555px;
-            margin-bottom: 10px;
             text-align: center;
           }
         }  
@@ -1013,9 +938,6 @@ h1, h2, h3, h4, h5, h6 {
     background-repeat: no-repeat;
     text-align: center;
     .container {
-      margin: 0 auto;
-      max-width: 1170px;
-      padding: 0 15px;
       .footer-wrapper {
         margin-left: 25%;
         width: 50%;
